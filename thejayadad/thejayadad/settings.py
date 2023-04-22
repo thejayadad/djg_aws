@@ -29,9 +29,9 @@ load_dotenv()
 SECRET_KEY = 'django-insecure-wtb%=m$7bhcr1tsq$*567z1v65k72tliie#%)&1s8pp=#6-m@@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
